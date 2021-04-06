@@ -2,4 +2,3 @@
 *.log
 *.iml
 settings.xml
-target/*
