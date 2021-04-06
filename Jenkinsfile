@@ -1,12 +1,15 @@
 import java.text.SimpleDateFormat
 
-@Library('libpipelines@master') _
+@Library('libpipelines@pre') _
 
 hose {
     EMAIL = 'cd'
     BUILDTOOL = 'make'
     REPOSITORYLESS_BUILD = true
+
     NEW_VERSIONING = true
+    //FREESTYLE_BRANCHING = true
+
     DOCKERFILE = """FROM ubuntu:16.04
 MAINTAINER QA "qa@stratio.com"
 
