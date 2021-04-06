@@ -18,7 +18,7 @@ ARG VERSION
 CMD ["tail -f /dev/null"]"""
 
     DEV = { config, currentBuild, params ->
-	currentBuild.description = params?.NEXT_VERSION
+	//currentBuild.description = params?.NEXT_VERSION
 	def ROLLING_RELEASE = false
 	if (params?.ROLLING_RELEASE) {
             ROLLING_RELEASE = params?.ROLLING_RELEASE.toBoolean()
