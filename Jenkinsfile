@@ -6,7 +6,7 @@ hose {
     EMAIL = 'cd'
     BUILDTOOL = 'make'
     REPOSITORYLESS_BUILD = true
-    DEBUG = true
+//     DEBUG = true
 
     NEW_VERSIONING = true
     //FREESTYLE_BRANCHING = true
