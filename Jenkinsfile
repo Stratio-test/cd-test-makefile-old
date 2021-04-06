@@ -1,6 +1,6 @@
 import java.text.SimpleDateFormat
 
-@Library('libpipelines@pre') _
+@Library('libpipelines@master') _
 
 hose {
     EMAIL = 'cd'
